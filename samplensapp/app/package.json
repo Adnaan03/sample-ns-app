@@ -1,0 +1,11 @@
+{
+	"name": "sample-ns-app",
+	"id": "org.nativescript.samplensapp",
+	"appPath": "app",
+	"appResourcesPath": "App_Resources",
+	"android": {
+		"v8Flags": "--expose_gc",
+		"markingMode": "none"
+	},
+	"main": "bundle"
+}

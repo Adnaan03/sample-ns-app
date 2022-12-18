@@ -1,7 +1,8 @@
 {
-	"time": "Sun Dec 18 2022 08:24:20 GMT-0800 (Pacific Standard Time)",
+	"time": "Wed Dec 14 2022 18:27:47 GMT-0800 (Pacific Standard Time)",
 	"nativePlatformStatus": "3",
+	"release": true,
 	"changesRequireBuild": true,
 	"projectFileHash": "7222559c7e1142cc07d6984cc0e994efeba8f1207829e2335ada546e661f1f65",
-	"changesRequireBuildTime": "Sun Dec 18 2022 08:24:20 GMT-0800 (Pacific Standard Time)"
+	"changesRequireBuildTime": "Wed Dec 14 2022 18:27:47 GMT-0800 (Pacific Standard Time)"
 }

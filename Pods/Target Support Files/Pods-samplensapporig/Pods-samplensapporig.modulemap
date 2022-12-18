@@ -1,6 +1,0 @@
-framework module Pods_samplensapporig {
-  umbrella header "Pods-samplensapporig-umbrella.h"
-
-  export *
-  module * { export * }
-}

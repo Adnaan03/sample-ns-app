@@ -1,11 +1,11 @@
 use_frameworks!
 
-target "samplensapporig" do
+target "samplensapp" do
 post_install do |installer|
   post_installNativeScript_CLI_Architecture_Exclusions_0 installer
 end
 
-# Begin Podfile - /Users/ios/Documents/sample-ns-app-orig/platforms/ios/Podfile-exclusions
+# Begin Podfile - /Users/ios/Documents/sample-ns-app/platforms/ios/Podfile-exclusions
 def post_installNativeScript_CLI_Architecture_Exclusions_0 (installer)
   installer.pods_project.build_configurations.each do |config|
     config.build_settings.delete "VALID_ARCHS"

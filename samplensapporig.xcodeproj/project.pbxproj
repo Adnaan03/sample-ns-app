@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20198502D12E434788A788D7 /* TNSWidgets.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505768D698EA4CF89020C24B /* TNSWidgets.xcframework */; };
+		31FF385970F74006B6327AC3 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E8D769D54C9A4EEB98BBF173 /* build.xcconfig */; };
 		39940D9122C4EF600050DDE1 /* NativeScript.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39940D8C22C4EAAA0050DDE1 /* NativeScript.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39940E1C22C5DFFF0050DDE1 /* TKLiveSync.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39940E1B22C5DFFF0050DDE1 /* TKLiveSync.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3A805682579E8815EE51D365 /* Pods_samplensapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAEDAF66CF1FE44C9FCDD3B /* Pods_samplensapp.framework */; };
-		53C944F339DC4DF4871B938D /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C9C23EE3B84F799F85803F /* NativeScriptEmbedder.m */; };
-		610BCB9978284D75B4C4B1D2 /* TNSWidgets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC2F13557359439DA5D764A1 /* TNSWidgets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		63304F76F54849F6A878DEF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7934FEA58747229DA5B9F7 /* Assets.xcassets */; };
-		7560A77893274B0596ADFF28 /* NativeScriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0062CBE1291F45439415F67F /* NativeScriptUtils.m */; };
-		8187BFA8294E61C10054B0E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8187BFA1294E61C00054B0E9 /* AppDelegate.m */; };
-		8187BFA9294E61C10054B0E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8187BFA2294E61C00054B0E9 /* main.m */; };
-		8187BFAA294E61C10054B0E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8187BFA4294E61C10054B0E9 /* ViewController.m */; };
-		8187BFAB294E61C10054B0E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8187BFA7294E61C10054B0E9 /* SceneDelegate.m */; };
-		8187BFAD294E62FB0054B0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8187BFAC294E62FB0054B0E9 /* Main.storyboard */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
-		865A103795414DCB9AD412D2 /* UIView+NativeScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F6F6530CE3475ABBBCE096 /* UIView+NativeScript.m */; };
-		9F7D05BAC9B64D759C876F2A /* TNSWidgets.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2F13557359439DA5D764A1 /* TNSWidgets.xcframework */; };
-		C6A3AC4F5D3942AF8D3B40C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007C10A75C65477E906C8F70 /* LaunchScreen.storyboard */; };
+		919EC4EB3A1B69D6DDC77A87 /* Pods_samplensapporig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A3BD3F1CE4BD64152F35CB /* Pods_samplensapporig.framework */; };
+		A0F95B3D43E64E9E83E51017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AB2D3CF22245F1A777CBEA /* LaunchScreen.storyboard */; };
+		A867B4F144A746C09200728D /* NativeScriptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A089DB911B4523970FF08F /* NativeScriptUtils.m */; };
+		B08EB5FC5AD841C1A22A80E3 /* UIView+NativeScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1691D39F6641CEBDA15AD5 /* UIView+NativeScript.m */; };
+		BC9E8CB948C0479E9418A002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C02780077A4448EAF06D0BD /* Assets.xcassets */; };
+		BE507F8DBEE74C9DBDD15AC8 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEF811B3524091981BF458 /* NativeScriptEmbedder.m */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
-		FA19D27257FB4E8BB4DB2D3B /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 392D8ADBA28C4EB1A8C04B39 /* build.xcconfig */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		ECD96D3D303848549A6E4EB9 /* TNSWidgets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 505768D698EA4CF89020C24B /* TNSWidgets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +32,7 @@
 			files = (
 				39940D9122C4EF600050DDE1 /* NativeScript.xcframework in Embed Frameworks */,
 				39940E1C22C5DFFF0050DDE1 /* TKLiveSync.xcframework in Embed Frameworks */,
-				610BCB9978284D75B4C4B1D2 /* TNSWidgets.xcframework in Embed Frameworks */,
+				ECD96D3D303848549A6E4EB9 /* TNSWidgets.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,49 +40,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0062CBE1291F45439415F67F /* NativeScriptUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptUtils.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.m"; sourceTree = "<group>"; };
-		007C10A75C65477E906C8F70 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = samplensapp/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		02A52017F2034DA28C49CEE6 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
-		0A4377C90A0BB2C6BC37B91C /* Pods-samplensapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplensapp.release.xcconfig"; path = "Target Support Files/Pods-samplensapp/Pods-samplensapp.release.xcconfig"; sourceTree = "<group>"; };
-		29F6F6530CE3475ABBBCE096 /* UIView+NativeScript.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIView+NativeScript.m"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.m"; sourceTree = "<group>"; };
-		30C9C23EE3B84F799F85803F /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
-		34C79CAD08F840D28D677099 /* module.modulemap */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; };
+		0C02780077A4448EAF06D0BD /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = samplensapporig/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		24B4A21D05A1E9CFD163EEB2 /* Pods-samplensapporig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplensapporig.debug.xcconfig"; path = "Target Support Files/Pods-samplensapporig/Pods-samplensapporig.debug.xcconfig"; sourceTree = "<group>"; };
+		28EDA3EB1F414135AC3F2A43 /* NativeScriptUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptUtils.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.h"; sourceTree = "<group>"; };
+		2CDE51121DA94AF0A901ADD9 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptEmbedder.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; };
 		391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "nativescript-build.xcconfig"; path = "internal/nativescript-build.xcconfig"; sourceTree = SOURCE_ROOT; };
 		391174B721F1D99900BA2583 /* plugins-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		391174B821F1D99900BA2583 /* plugins-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "plugins-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
-		392D8ADBA28C4EB1A8C04B39 /* build.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = samplensapp/Resources/build.xcconfig; sourceTree = "<group>"; };
-		39940D8122C4E84C0050DDE1 /* samplensapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = samplensapp.entitlements; sourceTree = "<group>"; };
+		39940D8122C4E84C0050DDE1 /* samplensapporig.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = samplensapporig.entitlements; sourceTree = "<group>"; };
 		39940D8C22C4EAAA0050DDE1 /* NativeScript.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NativeScript.xcframework; path = internal/NativeScript.xcframework; sourceTree = "<group>"; };
 		39940E1B22C5DFFF0050DDE1 /* TKLiveSync.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TKLiveSync.xcframework; path = internal/TKLiveSync.xcframework; sourceTree = "<group>"; };
+		3D1691D39F6641CEBDA15AD5 /* UIView+NativeScript.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIView+NativeScript.m"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.m"; sourceTree = "<group>"; };
 		42C751E2232B769100186695 /* nativescript-pre-link */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-link"; path = "internal/nativescript-pre-link"; sourceTree = SOURCE_ROOT; };
 		42C751E3232B769100186695 /* strip-dynamic-framework-architectures.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "strip-dynamic-framework-architectures.sh"; path = "internal/strip-dynamic-framework-architectures.sh"; sourceTree = SOURCE_ROOT; };
 		42C751E4232B769100186695 /* nsld.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = nsld.sh; path = internal/nsld.sh; sourceTree = SOURCE_ROOT; };
 		42C751E5232B769100186695 /* nativescript-post-build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-post-build"; path = "internal/nativescript-post-build"; sourceTree = SOURCE_ROOT; };
 		42C751E6232B769100186695 /* nativescript-pre-build */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "nativescript-pre-build"; path = "internal/nativescript-pre-build"; sourceTree = SOURCE_ROOT; };
-		7CCD38523F1D297BF6C9194F /* Pods-samplensapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplensapp.debug.xcconfig"; path = "Target Support Files/Pods-samplensapp/Pods-samplensapp.debug.xcconfig"; sourceTree = "<group>"; };
-		8187BFA1294E61C00054B0E9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../iosShareble/samplensapp/AppDelegate.m; sourceTree = "<group>"; };
-		8187BFA2294E61C00054B0E9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../iosShareble/samplensapp/main.m; sourceTree = "<group>"; };
-		8187BFA3294E61C00054B0E9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../iosShareble/samplensapp/ViewController.h; sourceTree = "<group>"; };
-		8187BFA4294E61C10054B0E9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../iosShareble/samplensapp/ViewController.m; sourceTree = "<group>"; };
-		8187BFA5294E61C10054B0E9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../iosShareble/samplensapp/AppDelegate.h; sourceTree = "<group>"; };
-		8187BFA6294E61C10054B0E9 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneDelegate.h; path = ../../iosShareble/samplensapp/SceneDelegate.h; sourceTree = "<group>"; };
-		8187BFA7294E61C10054B0E9 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneDelegate.m; path = ../../iosShareble/samplensapp/SceneDelegate.m; sourceTree = "<group>"; };
-		8187BFAC294E62FB0054B0E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../iosShareble/samplensapp/Main.storyboard; sourceTree = "<group>"; };
-		858B832E18CA111C00AB12DE /* samplensapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplensapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		858B833918CA111C00AB12DE /* samplensapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "samplensapp-Info.plist"; sourceTree = "<group>"; };
+		505768D698EA4CF89020C24B /* TNSWidgets.xcframework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = TNSWidgets.xcframework; path = "$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/TNSWidgets.xcframework"; sourceTree = "<group>"; };
+		5D1152C9E5355AA3BDC46523 /* Pods-samplensapporig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-samplensapporig.release.xcconfig"; path = "Target Support Files/Pods-samplensapporig/Pods-samplensapporig.release.xcconfig"; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* samplensapporig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplensapporig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* samplensapporig-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "samplensapporig-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		858B833F18CA111C00AB12DE /* samplensapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "samplensapp-Prefix.pch"; sourceTree = "<group>"; };
-		858B843318CA22B800AB12DE /* samplensapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplensapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833F18CA111C00AB12DE /* samplensapporig-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "samplensapporig-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* samplensapporig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = samplensapporig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EEF811B3524091981BF458 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptEmbedder.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; };
 		930F05DB22671AE300D269DC /* Swift-ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swift-ObjC-Bridging-Header.h"; path = "internal/Swift-ObjC-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		BCAEDAF66CF1FE44C9FCDD3B /* Pods_samplensapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplensapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC2F13557359439DA5D764A1 /* TNSWidgets.xcframework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = TNSWidgets.xcframework; path = "$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/TNSWidgets.xcframework"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
-		CD92F96B8E03451FA96DD5B3 /* NativeScriptUtils.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = NativeScriptUtils.h; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.h"; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		CE7934FEA58747229DA5B9F7 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = samplensapp/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		F6E7143F092D4F08BEC18898 /* UIView+NativeScript.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIView+NativeScript.h"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.h"; sourceTree = "<group>"; };
+		E207295F90804AADA2D4A78D /* module.modulemap */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "../../node_modules/@nativescript/core/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; };
+		E2AB2D3CF22245F1A777CBEA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = samplensapporig/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7A3BD3F1CE4BD64152F35CB /* Pods_samplensapporig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_samplensapporig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D769D54C9A4EEB98BBF173 /* build.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = samplensapporig/Resources/build.xcconfig; sourceTree = "<group>"; };
+		F39044D5C6114EF494CADE0F /* UIView+NativeScript.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIView+NativeScript.h"; path = "../../node_modules/@nativescript/core/platforms/ios/src/UIView+NativeScript.h"; sourceTree = "<group>"; };
+		F6A089DB911B4523970FF08F /* NativeScriptUtils.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = NativeScriptUtils.m; path = "../../node_modules/@nativescript/core/platforms/ios/src/NativeScriptUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,26 +83,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7D05BAC9B64D759C876F2A /* TNSWidgets.xcframework in Frameworks */,
-				3A805682579E8815EE51D365 /* Pods_samplensapp.framework in Frameworks */,
+				20198502D12E434788A788D7 /* TNSWidgets.xcframework in Frameworks */,
+				919EC4EB3A1B69D6DDC77A87 /* Pods_samplensapporig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA1291D1ED542059991507A /* TNSNativeSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TNSNativeSource;
+			sourceTree = "<group>";
+		};
 		39940D8E22C4EBCC0050DDE1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8187BFAC294E62FB0054B0E9 /* Main.storyboard */,
-				8187BFA5294E61C10054B0E9 /* AppDelegate.h */,
-				8187BFA1294E61C00054B0E9 /* AppDelegate.m */,
-				8187BFA2294E61C00054B0E9 /* main.m */,
-				8187BFA6294E61C10054B0E9 /* SceneDelegate.h */,
-				8187BFA7294E61C10054B0E9 /* SceneDelegate.m */,
-				8187BFA3294E61C00054B0E9 /* ViewController.h */,
-				8187BFA4294E61C10054B0E9 /* ViewController.m */,
-				858B833F18CA111C00AB12DE /* samplensapp-Prefix.pch */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* samplensapporig-Prefix.pch */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -130,54 +119,24 @@
 			name = "Build Scripts";
 			sourceTree = "<group>";
 		};
-		437EDBB5ADD942F7A7A2ED94 /* TNSNativeSource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = TNSNativeSource;
-			sourceTree = "<group>";
-		};
-		66B3ED424AB84199AAB3ABD8 /* @nativescript/core */ = {
-			isa = PBXGroup;
-			children = (
-				02A52017F2034DA28C49CEE6 /* NativeScriptEmbedder.h */,
-				30C9C23EE3B84F799F85803F /* NativeScriptEmbedder.m */,
-				CD92F96B8E03451FA96DD5B3 /* NativeScriptUtils.h */,
-				0062CBE1291F45439415F67F /* NativeScriptUtils.m */,
-				F6E7143F092D4F08BEC18898 /* UIView+NativeScript.h */,
-				29F6F6530CE3475ABBBCE096 /* UIView+NativeScript.m */,
-				34C79CAD08F840D28D677099 /* module.modulemap */,
-			);
-			name = "@nativescript/core";
-			sourceTree = "<group>";
-		};
-		75AF2F8E001BDFACA7583DEF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CCD38523F1D297BF6C9194F /* Pods-samplensapp.debug.xcconfig */,
-				0A4377C90A0BB2C6BC37B91C /* Pods-samplensapp.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		858B832518CA111C00AB12DE = {
 			isa = PBXGroup;
 			children = (
 				E070579D1B39A9D000214BF1 /* Resources */,
-				858B833718CA111C00AB12DE /* samplensapp */,
+				858B833718CA111C00AB12DE /* samplensapporig */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				437EDBB5ADD942F7A7A2ED94 /* TNSNativeSource */,
-				66B3ED424AB84199AAB3ABD8 /* @nativescript/core */,
-				75AF2F8E001BDFACA7583DEF /* Pods */,
+				1BA1291D1ED542059991507A /* TNSNativeSource */,
+				D622DDF11D6D4B0584439EF2 /* @nativescript/core */,
+				A93F83E670E8FB11D2E861FC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		858B832F18CA111C00AB12DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				858B832E18CA111C00AB12DE /* samplensapp.app */,
-				858B843318CA22B800AB12DE /* samplensapp.app */,
+				858B832E18CA111C00AB12DE /* samplensapporig.app */,
+				858B843318CA22B800AB12DE /* samplensapporig.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,21 +146,21 @@
 			children = (
 				39940E1B22C5DFFF0050DDE1 /* TKLiveSync.xcframework */,
 				39940D8C22C4EAAA0050DDE1 /* NativeScript.xcframework */,
-				CC2F13557359439DA5D764A1 /* TNSWidgets.xcframework */,
-				BCAEDAF66CF1FE44C9FCDD3B /* Pods_samplensapp.framework */,
+				505768D698EA4CF89020C24B /* TNSWidgets.xcframework */,
+				E7A3BD3F1CE4BD64152F35CB /* Pods_samplensapporig.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		858B833718CA111C00AB12DE /* samplensapp */ = {
+		858B833718CA111C00AB12DE /* samplensapporig */ = {
 			isa = PBXGroup;
 			children = (
 				39940D8E22C4EBCC0050DDE1 /* Sources */,
-				39940D8122C4E84C0050DDE1 /* samplensapp.entitlements */,
+				39940D8122C4E84C0050DDE1 /* samplensapporig.entitlements */,
 				CD45EE7A18DC2D5800FB50C0 /* app */,
 				858B833818CA111C00AB12DE /* Supporting Files */,
 			);
-			path = samplensapp;
+			path = samplensapporig;
 			sourceTree = "<group>";
 		};
 		858B833818CA111C00AB12DE /* Supporting Files */ = {
@@ -214,19 +173,43 @@
 				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
 				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
 				391174B521F1D7BF00BA2583 /* nativescript-build.xcconfig */,
-				858B833918CA111C00AB12DE /* samplensapp-Info.plist */,
+				858B833918CA111C00AB12DE /* samplensapporig-Info.plist */,
 				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
 				930F05DB22671AE300D269DC /* Swift-ObjC-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A93F83E670E8FB11D2E861FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24B4A21D05A1E9CFD163EEB2 /* Pods-samplensapporig.debug.xcconfig */,
+				5D1152C9E5355AA3BDC46523 /* Pods-samplensapporig.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D622DDF11D6D4B0584439EF2 /* @nativescript/core */ = {
+			isa = PBXGroup;
+			children = (
+				2CDE51121DA94AF0A901ADD9 /* NativeScriptEmbedder.h */,
+				85EEF811B3524091981BF458 /* NativeScriptEmbedder.m */,
+				28EDA3EB1F414135AC3F2A43 /* NativeScriptUtils.h */,
+				F6A089DB911B4523970FF08F /* NativeScriptUtils.m */,
+				F39044D5C6114EF494CADE0F /* UIView+NativeScript.h */,
+				3D1691D39F6641CEBDA15AD5 /* UIView+NativeScript.m */,
+				E207295F90804AADA2D4A78D /* module.modulemap */,
+			);
+			name = "@nativescript/core";
+			sourceTree = "<group>";
+		};
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE7934FEA58747229DA5B9F7 /* Assets.xcassets */,
-				007C10A75C65477E906C8F70 /* LaunchScreen.storyboard */,
-				392D8ADBA28C4EB1A8C04B39 /* build.xcconfig */,
+				0C02780077A4448EAF06D0BD /* Assets.xcassets */,
+				E2AB2D3CF22245F1A777CBEA /* LaunchScreen.storyboard */,
+				E8D769D54C9A4EEB98BBF173 /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -234,11 +217,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		858B83EF18CA22B800AB12DE /* samplensapp */ = {
+		858B83EF18CA22B800AB12DE /* samplensapporig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "samplensapp" */;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "samplensapporig" */;
 			buildPhases = (
-				35465FC823DB367386DF7DA3 /* [CP] Check Pods Manifest.lock */,
+				813F0A441022EF5556BC9E73 /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -251,9 +234,9 @@
 			);
 			dependencies = (
 			);
-			name = samplensapp;
+			name = samplensapporig;
 			productName = JDBridgeApp;
-			productReference = 858B843318CA22B800AB12DE /* samplensapp.app */;
+			productReference = 858B843318CA22B800AB12DE /* samplensapporig.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "samplensapp" */;
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "samplensapporig" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				858B83EF18CA22B800AB12DE /* samplensapp */,
+				858B83EF18CA22B800AB12DE /* samplensapporig */,
 			);
 		};
 /* End PBXProject section */
@@ -296,17 +279,16 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				63304F76F54849F6A878DEF0 /* Assets.xcassets in Resources */,
-				8187BFAD294E62FB0054B0E9 /* Main.storyboard in Resources */,
-				C6A3AC4F5D3942AF8D3B40C6 /* LaunchScreen.storyboard in Resources */,
-				FA19D27257FB4E8BB4DB2D3B /* build.xcconfig in Resources */,
+				BC9E8CB948C0479E9418A002 /* Assets.xcassets in Resources */,
+				A0F95B3D43E64E9E83E51017 /* LaunchScreen.storyboard in Resources */,
+				31FF385970F74006B6327AC3 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		35465FC823DB367386DF7DA3 /* [CP] Check Pods Manifest.lock */ = {
+		813F0A441022EF5556BC9E73 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,7 +303,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-samplensapp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-samplensapporig-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -387,13 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8187BFAA294E61C10054B0E9 /* ViewController.m in Sources */,
-				8187BFA9294E61C10054B0E9 /* main.m in Sources */,
-				8187BFA8294E61C10054B0E9 /* AppDelegate.m in Sources */,
-				8187BFAB294E61C10054B0E9 /* SceneDelegate.m in Sources */,
-				53C944F339DC4DF4871B938D /* NativeScriptEmbedder.m in Sources */,
-				7560A77893274B0596ADFF28 /* NativeScriptUtils.m in Sources */,
-				865A103795414DCB9AD412D2 /* UIView+NativeScript.m in Sources */,
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+				BE507F8DBEE74C9DBDD15AC8 /* NativeScriptEmbedder.m in Sources */,
+				A867B4F144A746C09200728D /* NativeScriptUtils.m in Sources */,
+				B08EB5FC5AD841C1A22A80E3 /* UIView+NativeScript.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +506,7 @@
 			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_ENTITLEMENTS = samplensapp/samplensapp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = samplensapporig/samplensapporig.entitlements;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -535,7 +514,7 @@
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "samplensapp/samplensapp-Prefix.pch";
+				GCC_PREFIX_HEADER = "samplensapporig/samplensapporig-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"DEBUG=1",
@@ -547,13 +526,13 @@
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/samplensapp/samplensapp-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/samplensapporig/samplensapporig-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.samplensapp;
-				PRODUCT_NAME = samplensapp;
+				PRODUCT_NAME = samplensapporig;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -564,7 +543,7 @@
 			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_ENTITLEMENTS = samplensapp/samplensapp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = samplensapporig/samplensapporig.entitlements;
 				ENABLE_BITCODE = NO;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -572,7 +551,7 @@
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "samplensapp/samplensapp-Prefix.pch";
+				GCC_PREFIX_HEADER = "samplensapporig/samplensapporig-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$SRCROOT/internal/Swift-Modules",
@@ -580,13 +559,13 @@
 					"\"$(SRCROOT)/../../App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/@nativescript/core/platforms/ios/src\"",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/samplensapp/samplensapp-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/samplensapporig/samplensapporig-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.nativescript.samplensapp;
-				PRODUCT_NAME = samplensapp;
+				PRODUCT_NAME = samplensapporig;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -595,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "samplensapp" */ = {
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "samplensapporig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				858B835818CA111C00AB12DE /* Debug */,
@@ -604,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "samplensapp" */ = {
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "samplensapporig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				858B843118CA22B800AB12DE /* Debug */,
